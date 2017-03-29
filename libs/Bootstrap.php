@@ -6,15 +6,20 @@
 
 
             $url = isset($_GET['url']) ? $_GET['url'] : null;
-            $url = explode('/', $url);
+            // $url = explode('/', $url);
 
-                  if(empty($url[0])) {
+                  if(!empty($url)) {
+                     $url = rtrim($url, '/');
+                     $url = explode('/', $url);
+                 }else  $url[1] = 'index';
+                  $file = 'controllers/' . $url[0] . '.php';
+
                    require 'controllers/index.php';
                    $controller = new Index();
                    return false;
   }
 }
-}
+
 
 
 

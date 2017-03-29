@@ -3,7 +3,7 @@
 	class Help extends Controller{
 		public function __construct(){
 			parent::__construct();
-			echo "мы в конструкторе хелп<br />";
+			$this->view->render('help/index');
 		}
 		
    		public function other($arg = false) {
