@@ -4,5 +4,6 @@
 		public function __construct(){
 			parent::__construct();
 			echo "ми в контролере индекс";
+			  $this->view->render('index/index');
 		}
 	}

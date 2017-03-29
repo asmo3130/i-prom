@@ -6,4 +6,3 @@ echo $this->msg; ?>
 
 
 <?php require 'views/footer.php'; ?>
-
