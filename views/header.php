@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="public/css/default.css">
 	<script src="public/js/jquery.js"></script>
 	<script src="public/js/custom.js"></script>
+	<link rel="stylesheet" href="<?php echo URL; ?>/public/css/default.css">
 </head>
 <body>
 <div id="header">
