@@ -3,8 +3,11 @@
 	class Help extends Controller{
 		public function __construct(){
 			parent::__construct();
-			$this->view->render('help/index');
+			// $this->view->render('help/index');
 		}
+		  public function index() {
+  		 $this->view->render('help/index');
+  }
 		
    		public function other($arg = false) {
     		echo "Мы в методе other контроллера Help";
