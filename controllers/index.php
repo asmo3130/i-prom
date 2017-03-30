@@ -6,4 +6,12 @@
 			echo "ми в контролере индекс";
 			  $this->view->render('index/index');
 		}
+		public function index() {
+  echo 'INSIDE INDEX INDEX';
+}
+
+public function details() {
+  $this->view->render('index/index');
+}
+
 	}

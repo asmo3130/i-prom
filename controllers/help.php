@@ -7,7 +7,7 @@
 		}
 		  public function index() {
   		 $this->view->render('help/index');
-  }
+  		}
 		
    		public function other($arg = false) {
     		echo "Мы в методе other контроллера Help";

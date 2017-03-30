@@ -1,3 +1,3 @@
 <?php
-  define('URL', 'http://engine.local/');
+  define('URL', 'http://i-prom/');
 ?>
